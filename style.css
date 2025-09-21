@@ -5,9 +5,9 @@
 
 
 body {
-  background: linear-gradient(#ff8e1c, #ff8060);
+  background: linear-gradient(#ffd166, #ff5f37);
   font-family: sans-serif;
-  line-height: 1.5;
+  line-height: 2.5;
   letter-spacing: 0.05rem;
 }
 header {
@@ -15,8 +15,11 @@ header {
   margin: 10%;
 }
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   font-family: Tahoma;
+}
+p {
+  font-size: 24px;
 }
 #title {
   margin: auto;
