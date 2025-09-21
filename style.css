@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 body {
   background: linear-gradient(#ff8e1c, #ff8060);
   font-family: sans-serif;
@@ -6,17 +12,17 @@ body {
 }
 header {
   text-align: center;
-  margin: 100px;
+  margin: 10%;
 }
 h1 {
   font-size: 50px;
   font-family: Tahoma;
 }
 #title {
-  margin: 50px 350px;
+  margin: auto;
 }
 #img-caption {
-  margin: 50px 350px;
+  margin: auto;
 }
 #img-div {
   border: 10px solid #fffd76;
@@ -24,7 +30,7 @@ h1 {
   background: linear-gradient(#ffd166, #ff5f37);
 }
 #image {
-  display: block;
+  display: inline;
   width: 500px;
   height: auto;
   max-width: 100%;
@@ -34,7 +40,7 @@ h1 {
 }
 #tribute-info {
   padding: 0px 20%;
-  margin: 10px 150px;
+  margin: auto;
 }
 footer {
   text-align: center;
