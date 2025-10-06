@@ -31,16 +31,20 @@ body {
 }
 .main {
   display: flex;
+  justify-content: center;
   padding: 1rem;
   gap: 2rem;
 }
 .footer {
   display: flex;
-  padding: 20px;
+  padding: 1rem;
 }
 .portrait {
   border-radius: 50%;
   width: 5rem;
   height: 5rem;
   box-shadow: -5px -20px 50px white;
+}
+.part {
+  flex-basis: 25%;
 }
